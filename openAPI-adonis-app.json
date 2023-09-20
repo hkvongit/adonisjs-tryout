@@ -1,0 +1,136 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "first-adonis-app",
+  "dateExported": "2023-09-20T12:15:52.662Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "2748208d-2eaa-4443-b04b-097a21321e36",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "Get all posts",
+      "url": "/posts",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2023-09-18T20:13:30.478Z",
+      "modified": "2023-09-20T09:10:18.830Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "b80cf00b-1257-4a21-bf72-7e7237e8f9e0",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "New user",
+      "url": "/users",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2023-09-19T12:18:56.558Z",
+      "modified": "2023-09-20T09:16:58.422Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"email\": \"barboza@ha.com\",\n  \"name\": \"BRRR\",\n  \"password\": \"supermama\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "c81e5ca6-a18e-4297-9f2b-d3cc1788e8f0",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "Get a user details",
+      "url": "/users/cdd7f4a9-dc14-49d4-bdf1-d058c2e97352",
+      "method": "DELETE",
+      "sortNum": 50000,
+      "created": "2023-09-19T19:53:37.819Z",
+      "modified": "2023-09-19T20:03:40.383Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "fbc0f2bb-158d-4e5a-ae48-257349247404",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "Get a user details Copy",
+      "url": "/users/cdd7f4a9-dc14-49d4-bdf1-d058c2e97352",
+      "method": "GET",
+      "sortNum": 60000,
+      "created": "2023-09-19T20:03:34.618Z",
+      "modified": "2023-09-19T20:03:34.618Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "768404a7-8e29-4b15-9308-583bb8b30be7",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "CREATE POST",
+      "url": "/posts",
+      "method": "POST",
+      "sortNum": 60000,
+      "created": "2023-09-19T20:17:41.477Z",
+      "modified": "2023-09-20T06:14:44.592Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"post\": \"My 4th post\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "9ddcee94-d4a6-47d0-b2d1-1d73722e08ad",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "DELETE POST",
+      "url": "/posts/da7442bd-d39a-47cc-b118-8db1cfb1ac1e",
+      "method": "DELETE",
+      "sortNum": 80000,
+      "created": "2023-09-20T09:09:46.410Z",
+      "modified": "2023-09-20T12:00:51.083Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "47c8a5a4-5884-4284-b567-ddefad296c03",
+      "colId": "58aa1ee3-428e-41bf-b953-4d4cd20bc464",
+      "containerId": "",
+      "name": "LOGIN",
+      "url": "/login",
+      "method": "POST",
+      "sortNum": 90000,
+      "created": "2023-09-20T11:26:57.746Z",
+      "modified": "2023-09-20T11:37:18.304Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"email\": \"barboza@ha.com\",\n  \"password\": \"supermama\"\n}",
+        "form": []
+      },
+      "tests": []
+    }
+  ],
+  "settings": {
+    "headers": [],
+    "auth": {
+      "type": "basic",
+      "basic": {
+        "username": "barboza@ha.com",
+        "password": "supermama"
+      }
+    },
+    "tests": [],
+    "options": {
+      "baseUrl": "http://127.0.0.1:3333/api"
+    }
+  }
+}
